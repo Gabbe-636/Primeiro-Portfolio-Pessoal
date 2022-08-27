@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio | Gabriel</title>
+  </head>
+  <body>
+    <main>
+      <!HEADER>
+      <header>
+        <div class="logo">Gabriel Figueiredo</div>
+        <div class="menu">
+          <nav class="nav-list">
+            <a href="#home">Home</a>
+            <a href="#projetcs">Projetos</a>
+            <a href="#contact">Contato</a>
+          </nav>
+        </div>
+      </header>
+    </main>
+    <!HOME>
+    <section id="home">
+      <div class="home-info">
+        <h2>Olá, sou Gabriel!</h2>
+        <span class="home-position">Programador Front-End</span>
+        <span class="home-resume">
+          Graduado em Gestão Logística, iniciando em Programação através do
+          Desenvolvimento WEB, como um desafio pessoal.
+        </span>
+        <button><a href="#contact">Contato</a></button>
+      </div>
+      <div class="home-img">
+        <img src="./img/profile.jpeg" alt="Foto de Perfil" />
+      </div>
+    </section>
+    <!PROJETCS>
+    <section id="projects">
+      <h2>Projetos</h2>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./img/setup.jpeg" alt="setup" />
+            </div>
+            <div class="project-info">
+              <h2>Estou Aprendendo!</h2>
+              <p>
+                Estou iniciando os estudos, com apoio de cursos como OneBitCode,
+                Curso em Video, e, Fundação Bradesco.
+              </p>
+            </div>
+            <div class="project-img">
+              <img src="./img/ideas.jpg" alt="setup" />
+            </div>
+            <div class="project-info">
+              <h2>Linguagens</h2>
+              <p>Javascript (HTML & CSS), Python e SQL</p>
+            </div>
+            <div class="project-img">
+              <img src="./img/softskills.jpg" alt="setup" />
+            </div>
+            <div class="project-info">
+              <h2>Soft Skills</h2>
+              <p>
+                Perfil Analítico, Dedicado, estudando horas por dia, em busca de
+                conhecimento e desafios.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-button-next">Próximo</div>
+        <div class="swiper-button-prev">Anterior</div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  </body>
+</html>
